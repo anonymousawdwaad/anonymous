@@ -7,11 +7,11 @@ import torch
 import argparse
 import numpy as np
 from torch import nn
-from ST_model import define_model
+from model import define_model
 from torch.utils.data import DataLoader, ConcatDataset, Dataset
 from torch import optim
 from torch.optim import lr_scheduler
-import ST_model
+import model
 import logging
 import pandas as pd
 import convlstm.convlstm
