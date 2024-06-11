@@ -14,8 +14,7 @@ from torch.optim import lr_scheduler
 import model
 import logging
 import pandas as pd
-import convlstm.convlstm
-from convlstm.convlstm import ConvLSTM
+from model import ConvLSTM
 from torch.nn import functional as F
 
 
